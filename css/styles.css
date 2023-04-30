@@ -1,18 +1,13 @@
-:root {
-    --main-font-family: "Roboto", sans-serif;
-    --secondary-font-family: "Raleway", sans-serif;
-    --primary-text-color: #2e2f42
-    --title-text-color: #434455
-    --primary-bg-color:var(--main-font-family)#ffffff;
-    --secondary-bg-color:var(--main-font-family)#f4f4fd
-    --accent-color:var(--main-font-family)#4d5ae5
-    --btn-hover-color:var(--main-font-family)#404bbf
-}
+
 
 .list {list-style: none;}
-.link,
+
+.link {
+        text-decoration: none;
+    }
 .logo {text-decoration: none;}
-.button {cursor: pointer;}
+
+
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -38,6 +33,10 @@
         color: #2E2F42;
 }
 
+.logos {
+    
+}
+
 .menu-link {
         font-family: 'Roboto', sans-serif;
         
@@ -47,3 +46,4 @@
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
+.button {cursor: pointer;}
