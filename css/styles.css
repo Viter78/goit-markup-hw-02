@@ -11,8 +11,8 @@
 
 .list {list-style: none;}
 .link,
-.contacts-link,
-.logo .span-logo {text-decoration: none;}
+
+.logo {text-decoration: none;}
 .button,
 .button-secondary {font-family: inherit;
     cursor: pointer;
