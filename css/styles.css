@@ -7,8 +7,13 @@
     }
 .logo {text-decoration: none;}
 
+.button {
+    cursor: pointer;
+}
 
 
+/* ================= COMPONENTS ================= */
+/* ================= HEADER ================= */
 .logo {
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
@@ -33,17 +38,7 @@
         color: #2E2F42;
 }
 
-.logos {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #F4F4FD;
-}
+
 
 .menu-link {
         font-family: 'Roboto', sans-serif;
@@ -64,14 +59,35 @@ font-family: 'Roboto', sans-serif;
 }
 
 .contact-tel-header {
-    font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
+.modal-open-btn {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+}
 
-.button {cursor: pointer;}
+/* ================= FOOTER ================= */
+.logos {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
 
 
