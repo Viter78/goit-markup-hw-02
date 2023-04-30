@@ -11,13 +11,5 @@
 
 .list {list-style: none;}
 .link,
-
 .logo {text-decoration: none;}
-.button,
-.button-secondary {font-family: inherit;
-    cursor: pointer;
-}
-body {
-    font-family: var(--main-font-family);
-    color: var(--title-text-color);
-}
+.button {cursor: pointer;}
