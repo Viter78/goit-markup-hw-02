@@ -105,6 +105,16 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.04em;
         color: #FFFFFF;
 }
+.filter-button {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+}
 .qualities-title {
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
@@ -159,6 +169,25 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.02em;
         color: #434455;
 }
+.portfolio-name {
+font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.portfolio-paragraph {
+        font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5x;
+                text-align: center;
+                letter-spacing: 0.02em;
+                color: #434455;
+}
+/* ================= FOOTER ================= */
 .footer-paragraph {
         font-family: 'Roboto', sans-serif;
             
@@ -168,7 +197,7 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.02em;
         color: #F4F4FD;
 }
-/* ================= FOOTER ================= */
+
 .logos {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
