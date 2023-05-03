@@ -54,6 +54,10 @@ body {
         letter-spacing: 0.04em;
         color:color#4D5AE5;
 }
+.filter-button:hover,
+.filter-button:focus {
+        background-color: var(--accent-hover-color);
+}
 
 /* ================= HEADER ================= */
 .logo {
