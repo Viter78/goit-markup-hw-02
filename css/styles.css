@@ -11,17 +11,36 @@
 
 .list {list-style: none;}
 
-.link {
-        text-decoration: none;
-    }
-.logo {text-decoration: none;}
+.link, logo {
+        text-decoration: none; 
+}
 
 .button, filter-button {
     cursor: pointer;
 }
-
-
 /* ================= COMPONENTS ================= */
+.modal-open-btn {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+}
+
+.filter-button {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+}
+
 /* ================= HEADER ================= */
 .logo {
         font-family: 'Raleway', sans-serif;
@@ -75,16 +94,7 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.modal-open-btn {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
-}
+
 /* ================= HERO ================= */
 .hero-title {
         font-family: 'Roboto', sans-serif;
@@ -95,26 +105,9 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.02em;
         color: #FFFFFF;
 }
-.modal-open-btn {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
-}
-.filter-button {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
-        color: #4D5AE5;
-}
+
+
+
 .qualities-title {
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
