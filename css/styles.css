@@ -19,6 +19,12 @@
     cursor: pointer;
 }
 
+body {
+        font-family: var(--main-font-family);
+        color: var(--title-text-color);
+        color:#434455;
+        background-color: #FFFFFF;
+}
 
 /* ================= COMPONENTS ================= */
 .modal-open-btn {
@@ -30,6 +36,12 @@
         align-items: center;
         letter-spacing: 0.04em;
         color: #FFFFFF;
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+        background-color: #404BBF;
+        
 }
 
 .filter-button {
