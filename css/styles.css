@@ -18,6 +18,9 @@
 .button, filter-button {
     cursor: pointer;
 }
+
+.menu-link:hover,
+.menu-link:focus
 /* ================= COMPONENTS ================= */
 .modal-open-btn {
         font-family: 'Roboto', sans-serif;
