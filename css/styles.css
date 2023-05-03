@@ -16,7 +16,7 @@
     }
 .logo {text-decoration: none;}
 
-.button {
+.button, filter-button {
     cursor: pointer;
 }
 
