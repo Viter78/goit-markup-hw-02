@@ -15,6 +15,9 @@
 .link, logo {
         text-decoration: none; 
 }
+.address-contacts {
+        font-style: normal;
+}
 
 .button, filter-button {
     cursor: pointer;
@@ -107,7 +110,7 @@ background-color: var(--primary-bg-color);
 background-color: var(--primary-bg-color);
 
 }
-.contact-mail-header {
+.contact-mtel-header {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -115,19 +118,12 @@ background-color: var(--primary-bg-color);
     letter-spacing: 0.02em;
     color:var(--primary-txt-color);
 }
-.contact-mail-header:hover,
-.contact-mail-header:focus {
+.contact-mtel-header:hover,
+.contact-mtel-header:focus {
         color:var(--accent-hover-color);
 }
 
-.contact-tel-header {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--primary-titletxt-color);
-}
+
 
 /* ================= HERO ================= */
 .hero-title {
@@ -141,6 +137,9 @@ background-color: var(--primary-bg-color);
 }
 .hero {
         background-color:var(--primary-titletxt-color) ;
+}
+.features {
+background-color: var(--primary-bg-color);
 }
 
 .our-qualities {
@@ -178,7 +177,7 @@ background-color: var(--primary-bg-color);
         color: var(--primary-titletxt-color);
 }
 .our-team {
-        background-color: #E7E9FC;
+        background-color: var(--secondary-bg-color);
 }
 .team-employee {
 background-color: var(--primary-bg-color);
@@ -205,7 +204,7 @@ background-color: var(--primary-bg-color);
 .team-paragraph {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
-        line-height: 1.5x;
+        line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--primary-txt-color);
@@ -225,7 +224,7 @@ background-color: var(--primary-bg-color);
 .portfolio-paragraph {
         font-family: 'Roboto', sans-serif;
                 font-size: 16px;
-                line-height: 1.5x;
+                line-height: 1.5;
                 text-align: center;
                 letter-spacing: 0.02em;
                 color: var(--primary-txt-color);
